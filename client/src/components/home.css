@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@700&display=swap');
+
+/*center elements on entire home page*/
+* {
+    text-align: center;  
+}
+
+/*style container*/
+.container {
+    display: grid;
+    grid-template-columns: 500px 500px; 
+    grid-template-rows: 500px;
+    grid-column-gap: 5px;
+}
+
+/*measurements for the image*/
+img {
+    width: 600px;
+    height: 600px;
+}
+
+.text-wrapper {
+    position: relative;
+    margin-top: -550px;
+    margin-left: 600px;
+}
+
+ /*style the heading*/
+.Heading {
+    font-size: 3rem;
+    font-family: 'Amiri', serif;
+    color: rgb(19, 39, 83);
+    margin-top: 20px;
+}
+
+.HomeHeading {
+    font-size: 2rem;
+    font-family: 'Amiri', serif;
+    color: rgb(19, 39, 83);
+    margin-top: 200px;
+    margin-left: 200px;
+}
+
+/*style the register button*/
+.HomeButton {
+    border: 2px solid rgb(48, 110, 243);
+    color: rgb(40, 93, 207);
+    background-color: lightblue;
+    font-size: 20px;
+    margin-left: 200px;
+}
+
+/*style the login button*/
+.HomeLoginButton {
+    border: 2px solid rgb(48, 110, 243);
+    color: rgb(40, 93, 207);
+    background-color: lightblue;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 420px;
+}

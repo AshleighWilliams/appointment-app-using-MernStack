@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@700&display=swap');
+
+.content-wra {
+    width: 100%;
+    margin: 0px;
+    position: relative;
+    
+}
+
+/*style the heading*/
+.AddHeading {
+    font-size: 2rem;
+    font-family: 'Amiri', serif;
+    color: rgb(19, 39, 83);
+    margin-top: -20px;
+    margin-right: 750px;
+}
+
+/*style the form*/
+.AddForm {
+    width: 350px;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 75px;
+}
+
+/*style the button*/
+.AddButton {
+    border: 2px solid rgb(19, 39, 83);
+    color: rgb(19, 39, 83);
+    background-color: lightblue;
+    font-size: 18px;
+    width: 190px;
+    font-family: 'Amiri', serif;
+}
+
+/*style the button when hovered*/
+.AddButton :hover {
+    background-color: rgb(19, 39, 83);
+    color: white;
+}
+
+.AddLabel {
+    color: rgb(19, 39, 83);
+}
+
+.AddNavLink {
+    font-size: 25px;
+    color: rgb(19, 39, 83);
+    margin-left: -450px;
+}
+
+.AddNavLink {
+    color: rgb(19, 39, 83);
+}
+
+.AddNavLink :hover {
+    color: lightblue;
+}

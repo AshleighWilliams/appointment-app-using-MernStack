@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@700&display=swap');
+
+/*style heading*/
+.AppointmentsHeading {
+    font-size: 2rem;
+    font-family: 'Amiri', serif;
+   margin-left: -800px;
+    margin-top: 20px;
+    color: rgb(19, 39, 83);
+}
+
+/*style table*/
+Table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    font-size: medium;
+    font-family: 'Amiri', serif;
+}
+
+/*style the delete button*/
+.DeleteButton {
+    border: 2px solid red;
+    color: red;
+    background-color: transparent;
+    width: 39px;
+    height: 36px;
+    font-size: 20px;
+    padding: 0px;
+}
+
+.AppointmentsNavLink {
+    color: rgb(7, 30, 99);
+    font-family: 'Amiri', serif;
+}
+
+.AppointmentsNavLink :hover {
+    color: lightblue;
+}
+
+.AppointmentsTable {
+    font-size: 13px;
+    background-color: lightblue;
+}
+
+.AppointmentsTableHead {
+    background-color: lightblue;
+    color: rgb(19, 39, 83);
+    font-family: 'Amiri', serif;
+}
+
+.TableRemove {
+    width: 60px;
+    color: red;
+}
+
+.AppointmentsSubheading {
+    font-size: 1rem;
+    color: rgb(7, 30, 99);
+    font-family: 'Amiri', serif;
+}
+
+.AppointmentsSubLink {
+    font-size: 1rem;
+    color: rgb(7, 30, 99);
+    font-family: 'Amiri', serif;
+}
+
+.AppointmentsSubLink :hover{
+    color:lightblue;
+}

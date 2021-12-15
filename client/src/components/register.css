@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@700&display=swap');
+
+.content-wrapper {
+    background-color: rgb(208, 237, 247);
+}
+
+/*style the header*/
+.RegisterHeading {
+    font-size: 2rem;
+    font-family: 'Amiri', serif;
+    margin-right: 700px;
+    margin-top: 70px;
+    color: rgb(19, 39, 83);
+}
+
+/*style the register form*/
+.RegisterForm {
+    width: 350px;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 100px;
+}
+
+/*style the register button*/
+.RegisterButton {
+    border: 2px solid rgb(19, 39, 83);
+    color: rgb(19, 39, 83);
+    background-color: lightblue;
+    font-size: 20px;
+    width: 100px;
+    font-family: 'Amiri', serif;
+}
+
+.RegisterLabel {
+    color: rgb(19, 39, 83);
+}

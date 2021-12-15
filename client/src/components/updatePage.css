@@ -1,0 +1,103 @@
+/*style the heading*/
+.UpdateHeading {  
+    font-family: 'Amiri', serif;
+    color: rgb(19, 39, 83);
+    margin-top: 20px;
+    margin-left: 750px;
+}
+
+.leftSide {
+    float: left;
+}
+
+.rightSide {
+    float:right;
+}
+
+.SearchHeading {
+    width: 450px;
+    font-size: 22px;
+    font-family: 'Amiri', serif;
+    color: rgb(19, 39, 83);
+    margin-left: 850px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+/*style search form*/
+.SearchForm {
+    width: 250px;
+    margin-left: 950px;
+}
+
+/*style update form*/
+.UpdateForm {
+    width: 365px;
+    margin-top: -125px;
+}
+
+/*style update button*/
+.UpdateButton {
+    font-family: 'Amiri', serif;
+    border: 2px solid rgb(19, 39, 83);
+    color: rgb(19, 39, 83);
+    background-color: lightblue;
+    width: 190px;
+    font-size: 15px;
+}
+
+/*style update when hovered*/
+.UpdateButton :hover {
+    background-color: rgb(19, 39, 83);
+    color: white;
+}
+
+.UpdateLabel {
+    font-family: 'Amiri', serif;
+    color: rgb(19, 39, 83);
+    font-size: 19px;
+}
+
+.UpdateNavLink {
+    font-size: 25px;
+    font-family: 'Amiri', serif;
+    color: rgb(19, 39, 83);
+    margin-left: -460px;
+}
+
+.UpdateNavLink {
+    font-family: 'Amiri', serif;
+    color: rgb(19, 39, 83);
+    margin-top: -250px;
+}
+
+.UpdateNavLink :hover {
+    color: lightblue;
+}
+
+/*style update form*/
+.SecUpdateForm {
+    width: 350px;
+    
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.SecUpdateLabel {
+    font-family: 'Amiri', serif;
+    color: rgb(19, 39, 83);
+    font-size: 19px;
+}
+
+/*style update table*/
+.UpdateTable {
+    width: 580px;
+    font-size: 13px;
+    margin-top: 25px;
+    margin-left: 280px;
+    font-family: 'Amiri', serif;
+    background-color: lightblue;
+    border-radius: 10px;
+    border: 2px rgb(19, 39, 83);
+    color: rgb(250, 229, 235);
+}
