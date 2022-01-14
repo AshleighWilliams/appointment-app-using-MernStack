@@ -10,6 +10,7 @@ View Demo: https://appointment-app-for-doctors.herokuapp.com/
                     <li><a href= "#userstories">User Stories</a></li>
                     <li><a href= "#similarsoftwareavailable">Similar Software available</a></li>
                     <li><a href= "#usage">Usage</a></li>
+                    <li><a href= "#screenshots">Screenshots</a></li>
                     <li><a href= "#installation">Installation</a></li>
                     <li><a href= "#security">Security</a></li>
                     <li><a href= "#deployment">Deployment</a></li>
@@ -69,6 +70,19 @@ View Demo: https://appointment-app-for-doctors.herokuapp.com/
 * Register as a new user and then sign in with the registration credentials.
 * On successful login, add appointments with its details.
 * View your appointment list.
+
+## Screenshots:
+-the homepage:
+![Capture2](https://user-images.githubusercontent.com/90770698/149541429-b55ad630-bb86-41a6-90e7-a9c7d91c26ee.JPG)
+
+-the user should register:
+![Capture3](https://user-images.githubusercontent.com/90770698/149541491-ae97ff95-ad26-48ba-a17a-df0dc79162bf.JPG)
+
+-the user should login:
+![Capture4](https://user-images.githubusercontent.com/90770698/149541546-12b3971c-b787-4926-b436-6c477e71cc0d.JPG)
+
+-the user can now view appointment list where they can add, edit or delete appointments:
+![Capture5](https://user-images.githubusercontent.com/90770698/149541604-a88034df-622d-4adb-8fd2-260b3518aeea.JPG)
 
 ## Installation:
 * `cd to the root folder`
