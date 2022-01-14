@@ -1,6 +1,5 @@
 # Appointment MERN application for Doctors
-
-## View Demo: https://appointment-app-for-doctors.herokuapp.com/
+View Demo: https://appointment-app-for-doctors.herokuapp.com/
 
 ## How this application works: 
 * This application will allow users (doctors) to add, edit or delete appointments and patient information users will either need to login or register as a new user to access this.
