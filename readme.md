@@ -1,14 +1,31 @@
 # Appointment MERN application for Doctors
 View Demo: https://appointment-app-for-doctors.herokuapp.com/
 
+<!--Table of Contents-->
+<details open= "open">
+                <summary>Table of Contents</summary>
+                  <ul>
+                    <li><a href= "#howthisapplicationworks">How this application works</a></li>
+                    <li><a href= "#systemarchitectureandsystemrequirementsspecifications">System Archiecture and System Requirements Specifications</a></li>
+                    <li><a href= "#userstories">User Stories</a></li>
+                    <li><a href= "#similarsoftwareavailable">Similar Software available</a></li>
+                    <li><a href= "#usage">Usage</a></li>
+                    <li><a href= "#installation">Installation</a></li>
+                    <li><a href= "#security">Security</a></li>
+                    <li><a href= "#deployment">Deployment</a></li>
+                    <li><a href= "#resourceused">Resource Used</a></li>
+                    <li><a href= "#credits">Credits</a></li>
+                  </ul>
+</details>
+
 ## How this application works: 
 * This application will allow users (doctors) to add, edit or delete appointments and patient information users will either need to login or register as a new user to access this.
 * On the backe-end express (which is the server) will be listening for requests made by the user and then modify the MongoDB database accordingly
 * On the frontend , React will accept this information and respond by sending to the server (Express) via Axios to interact with the MongoDB database.
 
-# System Architecture and System Requirements Specifications:
+## System Architecture and System Requirements Specifications:
 
-# System Architecture:
+-System Architecture:
 * The web stack used for developing this application is the MERN Stack.
 * MERN Stack consists of 4 technologies namely MongDB, Express, React and Nodejs.
 * MongoDB, Express and Node for the back-end of this application.
@@ -19,9 +36,9 @@ View Demo: https://appointment-app-for-doctors.herokuapp.com/
 * For easy and effective styling, the application is styled with Bootstrap and React Bootstrap.
 * The application will be deployed on GitHub and Heroku.
  
-# System Requirements:
+-System Requirements:
 
-## Functional Requirements:
+ Functional Requirements:
 * The application authenticates existing users (doctors) access through a passport strategy of a username and password.
 * The application allows non-existing users (doctors) to register an account.
 * Users will be notified that they are logged in successfully.
@@ -29,7 +46,7 @@ View Demo: https://appointment-app-for-doctors.herokuapp.com/
 * The application allows users (doctors) to view their appointments.
 * The application allows users (patients) who are not logged in or registered to only view appointments made by doctors.
 
-## Non-functional Requirements:
+ Non-functional Requirements:
 * Signing in after registration takes 10 seconds.
 * Verify user identity by strong password (strong password that contains a certain number of characters, a capital letter, numbers and symbols) to be able to sign in successfully.
 * Non-existing users HAVE to sign up to create an account.
@@ -74,3 +91,7 @@ View Demo: https://appointment-app-for-doctors.herokuapp.com/
 
 ## Resource Used:
 * Traversy Media on Learning the MERN Stack : https://youtube.com/playlist
+
+## Credits
+-created following completion of my full stack web development bootcamp course at Hyperiondev Software Institute
+-by Ashleigh Williams
